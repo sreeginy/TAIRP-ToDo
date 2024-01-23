@@ -101,12 +101,6 @@ public class AddNewTask extends BottomSheetDialogFragment {
         });
     }
 
-
-//    public void cancel(View view) {
-//        // Perform the desired action when the cancel button is clicked
-//        // For example, you can close the current activity or dismiss a dialog
-//    }
-
     @Override
     public void onDismiss(@NonNull DialogInterface dialog) {
         super.onDismiss(dialog);
