@@ -1,6 +1,10 @@
 package com.sreeginy.tairp_todo;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.app.Activity;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
@@ -16,8 +20,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
-import com.sreeginy.todolist.Model.ToDo;
-import com.sreeginy.todolist.Utils.DatabaseHelper;
 
 public class AddNewTask extends BottomSheetDialogFragment {
     public static final String TAG = "AddNewTask";
@@ -32,8 +34,8 @@ public class AddNewTask extends BottomSheetDialogFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-       View v = inflater.inflate(R.layout.add_newtask, container, false);
-       return v;
+        View v = inflater.inflate(R.layout.add_newtask, container, false);
+        return v;
     }
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -101,12 +103,14 @@ public class AddNewTask extends BottomSheetDialogFragment {
         });
     }
 
+
+
     @Override
     public void onDismiss(@NonNull DialogInterface dialog) {
         super.onDismiss(dialog);
         Activity activity = getActivity();
         if (activity instanceof OnDialogCloseListener){
             ((OnDialogCloseListener)activity).onDialogClose(dialog);
+        }
     }
-}
 }
