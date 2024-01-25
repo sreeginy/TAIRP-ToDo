@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
+import com.sreeginy.tairp_todo.Model.ToDo;
 import com.sreeginy.todolist.Model.ToDo;
 
 import java.util.ArrayList;
