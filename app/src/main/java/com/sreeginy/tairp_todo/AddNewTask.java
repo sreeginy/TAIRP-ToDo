@@ -32,7 +32,7 @@ public class AddNewTask extends BottomSheetDialogFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.add_newtask, container, false);
+        View v = inflater.inflate(R.layout.activity_add_new_task, container, false);
         return v;
     }
     @Override

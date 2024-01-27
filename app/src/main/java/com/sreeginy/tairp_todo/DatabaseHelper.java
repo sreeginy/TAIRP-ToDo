@@ -1,4 +1,5 @@
 package com.sreeginy.tairp_todo;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -8,7 +9,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 import com.sreeginy.tairp_todo.Model.ToDo;
-import com.sreeginy.todolist.Model.ToDo;
 
 import java.util.ArrayList;
 import java.util.List;

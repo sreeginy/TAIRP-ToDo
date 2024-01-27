@@ -16,7 +16,7 @@ import com.sreeginy.tairp_todo.DatabaseHelper;
 import com.sreeginy.tairp_todo.MainActivity;
 import com.sreeginy.tairp_todo.Model.ToDo;
 import com.sreeginy.tairp_todo.R;
-import com.sreeginy.tairp_todo.Utils.DatabaseHelper;
+
 
 import java.util.List;
 
