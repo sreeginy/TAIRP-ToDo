@@ -24,13 +24,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins_semibold"
         android:layout_marginTop="70dp"
+        android:fontFamily="@font/poppins_semibold"
         android:hint="Swipe to Edit Task  and  Remove Task  "
         android:textAlignment="center"
+        android:textColor="@color/gray"
         android:textSize="10dp"
-        android:textStyle="italic"
-        android:textColor="@color/gray"/>
+        android:textStyle="italic" />
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swiperefresh"
